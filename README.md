@@ -6,10 +6,6 @@ A simple Todo application built with FastAPI, Docker, and PostgreSQL. This appli
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
@@ -24,3 +20,19 @@ A simple Todo application built with FastAPI, Docker, and PostgreSQL. This appli
 4. The application will be available at:
    * Authentication Service: http://localhost:8000/auth
    * *Todo Service: http://localhost:8001/todos
+     
+## Usage
+
+After running the application, you can use the following API endpoints to interact with the Todo app.
+API Endpoints
+
+   * Authentication Service:
+        POST /auth/login - Authenticate a user and get a token.
+        POST /auth/register - Register a new user.
+   * Todo Service:
+        GET /todos - Get all todos (requires authentication).
+        POST /todos - Create a new todo (requires authentication).
+        PUT /todos/{id} - Update a todo by ID (requires authentication).
+        DELETE /todos/{id} - Delete a todo by ID (requires authentication).
+
+        
