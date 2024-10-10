@@ -27,12 +27,12 @@ After running the application, you can use the following API endpoints to intera
 API Endpoints
 
    * Authentication Service:
-        POST /auth/login - Authenticate a user and get a token.
-        POST /auth/register - Register a new user.
+      * POST /auth/login - Authenticate a user and get a token.
+      *  POST /auth/register - Register a new user.
    * Todo Service:
-        GET /todos - Get all todos (requires authentication).
-        POST /todos - Create a new todo (requires authentication).
-        PUT /todos/{id} - Update a todo by ID (requires authentication).
-        DELETE /todos/{id} - Delete a todo by ID (requires authentication).
+      *  GET /todos - Get all todos (requires authentication).
+      *  POST /todos - Create a new todo (requires authentication).
+      *  PUT /todos/{id} - Update a todo by ID (requires authentication).
+      *  DELETE /todos/{id} - Delete a todo by ID (requires authentication).
 
         
